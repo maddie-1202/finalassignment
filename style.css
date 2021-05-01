@@ -1,0 +1,159 @@
+html {
+  font-size: 10px;
+  font-family: 'Roboto', sans-serif;
+background-image: url(background3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body {
+  width: 640px;
+  margin: 0 auto;
+  background-color:black;
+  min-width: 1000px;
+  max-width: 1400px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+    }
+
+}
+
+h1 {
+  font-family: 'Rock Salt', cursive;
+  background-size: cover;
+  position: absolute;
+  padding: 20px 0;
+  top: 20px;
+  left: 400px;
+  font-size: 50px;
+  text-align: center;
+  color: gray;
+  text-shadow: 2px 2px 3px black;
+  line-height: 4rem;
+  }
+
+
+  section {
+  width: 40%;
+  font-family: 'Constantia', sans-serif;
+  font-size: 20px;
+ padding-left: 80px;
+ padding-top: 10px;
+  font-weight: bold;
+  word-spacing: .3rem;
+  line-height: 3rem;
+  }
+
+  main {
+   display: flex;
+  }
+
+  aside {
+  width: 45%;
+  font-family: 'Archivo', sans-serif;
+  }
+.pic {
+  padding: 70px;
+}
+  padding-top: 80px;
+}
+  nav {
+    position: absolute;
+    padding: 20px 0;
+    align-content: center;
+    top: 115px;
+    left: 600px;
+    font-size: 50px;
+
+  text-decoration: none;
+  }
+
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 400px;
+    background-color: rgba(0,0,0,0);
+  }
+
+  .btn {
+    border: 1px solid black;
+    font-weight: bold;
+    background: gray;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: "Constantia";
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+  }
+  .btn1 {
+    color: black;
+  }
+
+  .btn1:hover {
+    color: white;
+    background: black;
+  }
+
+  .btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background:black;
+    z-index: -4;
+    transition: 0.8s;
+  }
+.btn1 {
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px 2px black;
+}
+
+p {
+  color: white;
+}
+
+.insta{
+  color: violet;
+  font-size: 30px;
+  font-family: "constantia";
+  padding-bottom: 30px;
+}
+h2 {
+  color: white;
+  font-size: 30px;
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    color: gray;
+    text-shadow: 2px 2px 3px black;
+    line-height: 4rem;
+}
+li {
+  display: inline;
+  align-items: center;
+}
+
+
+.full-img {
+  position: relative;
+  display: block;
+  width: 600px;
+  height: 600px;
+  flex-direction: column;
+}
+
+.thumb-bar img {
+  display: block;
+  width: 20%;
+  float: left;
+  cursor: pointer;
+  padding-bottom: 50px;
+}
